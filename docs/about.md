@@ -1,0 +1,89 @@
+# About Me
+
+![Heorhii Terentiev](../assets/personal/IMG_20200626_183200.jpg)
+
+Hey! I'm **Heorhii (George) Terentiev**.
+
+I'm a guy who loves to learn and share knowledge.
+
+Since childhood, I've been curious about different things. I was always asking questions and trying to find answers. So, I tried a bunch of different things: art school, guitar lessons, handball, judo, and more.
+
+At that time, I didn't even think I could become a developer. After graduating from school, I decided to choose what I thought was my best option at that time. I chose to be a vet doctor. It was quite an interesting experience where I learned a lot about core concepts of life and how earth's creatures are made.
+I also did a lot of dirty work, so shitty code doesn't scare me at all right now. 😅
+
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:8px; padding-right: 100px;">
+  <a href="../assets/personal/FOhp85HUiFc.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/FOhp85HUiFc.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/r9tiZf2Bulg.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/r9tiZf2Bulg.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20191009_155702_842.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20191009_155702_842.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG-345f7984943e197aaa485cc656fcfe79-V.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG-345f7984943e197aaa485cc656fcfe79-V.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG-8b1d218588222ccf346612cb10ef8a9c-V.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG-8b1d218588222ccf346612cb10ef8a9c-V.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+</div>
+
+During my studies and after I got my bachelor's degree, I worked as a vet assistant and as a junior vet doctor.
+
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;padding-right: 100px;">
+  <a href="../assets/personal/IMG_20190117_175844.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20190117_175844.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG-26ee70ba53f14a79bda37009982b2820-V 1.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG-26ee70ba53f14a79bda37009982b2820-V 1.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20181007_124530.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20181007_124530.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20181007_124719.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20181007_124719.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/SCR-20260122-rfbe.png" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/SCR-20260122-rfbe.png" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20200725_203314.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20200725_203314.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+</div>
+
+Despite liking this job, I felt that I still wasn't happy with it, since my passion was something else. So, when I was studying for my master's degree, I decided to leave it and find myself from scratch.
+
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;padding-right: 100px;">
+  <a href="../assets/personal/200299700071_1131.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/200299700071_1131.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20201214_115145.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20201214_115145.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20210301_093006.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20210301_093006.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20200826_134002.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20200826_134002.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+</div>
+
+I moved to another city, Kharkiv, Ukraine — I truly love this city!!! — and started my journey to find who I am and what I want to do in my life. At that time, my parents worried about me since they thought I was lost and that I didn't finish all my beginnings. But that was the best decision I ever made. The main lesson I learned at that time was to be independent, take risks, and take responsibility for those risks.
+
+So, I tried a bunch of different things: working as a helper for a logistics manager, a junior cook at a restaurant, builder, and carpenter. It was the most exciting time of my life. I learned a lot about life and how people think and act. During that time, I focused on carpentry work — we made great furniture from slabs of wood and epoxy resin.
+
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:8px; padding-right: 100px;">
+  <a href="../assets/personal/IMG_2033.jpeg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_2033.jpeg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20210204_150735.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20210204_150735.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20210403_135547.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20210403_135547.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20210105_135128.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20210105_135128.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20200922_165745.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20200922_165745.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+</div>
+
+Around that time, a friend told me a story about how she became a QA engineer, which inspired me to start my journey as well. I always thought that programming was some nerd stuff with a bunch of mathematics and so on. But when I started to learn more about it, I realized that it's not about that. It's about problem-solving and the way you think and resolve real-world problems. My journey as a developer started from that moment, and I decided to become a Front-end developer first.
+
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:8px; padding-right: 100px;">
+  <a href="../assets/personal/IMG_20210122_002914.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20210122_002914.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20210107_235453.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20210107_235453.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20210110_235015.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20210110_235015.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+</div>
+
+Those days, my everyday routine was: wake up, go to carpentry work, come back, do a workout, and then study development until 2am. It was quite tough, but at the same time exciting. I realized that this was the thing I liked — where I could work with my brain (by that time, the hard physical work was enough for me) to solve real-world problems. And the most exciting part was that I could turn my own ideas into cool things.
+
+After half a year of hard work, I decided to try to get a job as a developer. That wasn't easy — 30-40 applications and no luck. Only a couple of interviews, but again no luck. It was quite frustrating, but I didn't give up and continued to search for a job. So, in the end, I found a Shopify-development focused company where I could dive deep into not just Front-end development, but also into Shopify infrastructure, business demands, and pain points.
+
+<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:8px; padding-right: 100px;">
+  <a href="../assets/personal/IMG_20211022_075156 1.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20211022_075156 1.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+  <a href="../assets/personal/IMG_20211105_124352 1.jpg" target="_blank" style="flex-shrink:0;"><img src="../assets/personal/IMG_20211105_124352 1.jpg" alt="" style="height:300px;object-fit:contain;display:block;" /></a>
+</div>
+
+After that, my learning and expertise grew a lot through tech stack, business, and development processes. I grew from junior developer to senior developer and also tried myself as a Shopify Practice Lead in a company where I was responsible for education and development best practices.
+
+At that time, I thought I was a pretty solid developer, but when I moved to another position, I realized that wasn't the case. Developers need to step out of their comfort zone to see new things and understand how businesses work, to see problem-solving approaches from different points of view.
+
+A developer's job is always about evolving and learning new things. Because the real world is always changing, and the main goal of a developer is not about writing code (now AI does it well enough) but about problem-solving, understanding business needs, implementing them in the best way, and explaining it to the business. And I really love to do it.
+
+So, because of all the things I mentioned above, I decided to start my new journey as a storyteller — sharing what I've learned in a way that might be useful for others.
+
+Why?
+
+I believe that the best way to learn is to teach. And the best way to teach is to tell stories. And the best way to tell stories for me is to create a digital garden.
+
+Because learning isn't linear. Because thoughts deserve sunlight. Because sharing is better than hoarding.
+
+This digital garden is my way of doing all three — learning, teaching, and storytelling — in a space where ideas can grow organically, connect with each other, and maybe help someone else on their journey.
+
+So, this is my story and I hope that you will find it useful and interesting.
+
+Cheers!
