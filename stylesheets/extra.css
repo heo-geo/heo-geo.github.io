@@ -1,0 +1,47 @@
+/* ============================================================
+   VS Code Dark+ theme overrides for Material for MkDocs
+   ============================================================ */
+
+[data-md-color-scheme="slate"] {
+
+  /* --- Backgrounds --- */
+  --md-default-bg-color:           #1e1e1e;   /* editor bg */
+  --md-default-bg-color--light:    #252526;   /* sidebar bg */
+  --md-default-bg-color--lighter:  #2d2d2d;   /* hover states */
+  --md-default-bg-color--lightest: #3c3c3c;   /* borders / dividers */
+
+  /* --- Text --- */
+  --md-default-fg-color:           #d4d4d4;
+  --md-default-fg-color--light:    rgba(212, 212, 212, 0.70);
+  --md-default-fg-color--lighter:  rgba(212, 212, 212, 0.54);
+  --md-default-fg-color--lightest: rgba(212, 212, 212, 0.12);
+
+  /* --- Accent / links (VS Code blue) --- */
+  --md-accent-fg-color:             #007acc;
+  --md-accent-fg-color--transparent: rgba(0, 122, 204, 0.10);
+  --md-accent-bg-color:             #ffffff;
+  --md-accent-bg-color--light:      rgba(255, 255, 255, 0.70);
+
+  /* --- Primary (header bar) --- */
+  --md-primary-fg-color:            #252526;
+  --md-primary-fg-color--light:     #252526;
+  --md-primary-fg-color--dark:      #252526;
+  --md-primary-bg-color:            #ffffff;
+  --md-primary-bg-color--light:     rgba(255, 255, 255, 0.70);
+
+  /* --- Code blocks --- */
+  --md-code-bg-color:               #1e1e1e;
+  --md-code-fg-color:               #d4d4d4;
+
+  /* --- Typeset (body copy) --- */
+  --md-typeset-color:               #d4d4d4;
+  --md-typeset-a-color:             #007acc;
+
+  /* --- Admonitions / callouts --- */
+  --md-admonition-bg-color:         #252526;
+}
+
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-footer {
+  background-color: #252526;
+}
