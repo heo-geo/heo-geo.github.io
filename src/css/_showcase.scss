@@ -1,0 +1,230 @@
+@use 'variables' as *;
+
+// ── 3D Showcase page ─────────────────────────────────────────────
+
+.showcase-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  width: 100%;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  @media (min-width: $bp-md) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.showcase-section__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  h2 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+    opacity: 0.75;
+  }
+}
+
+.showcase-section__model {
+  flex: 1;
+  position: relative;
+}
+
+.showcase-model-viewer {
+  width: 100%;
+  height: rem-calc(380);
+  display: block;
+  border-radius: rem-calc(8);
+  background: var(--ifm-color-emphasis-100);
+}
+
+.showcase-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+
+  h4 {
+    width: 100%;
+    margin: 0.5rem 0 0;
+    font-size: 0.875rem;
+    opacity: 0.6;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}
+
+.showcase-btn {
+  padding: 0.4rem 1rem;
+  border-radius: rem-calc(6);
+  border: 1px solid var(--ifm-color-emphasis-400);
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: border-color 0.15s ease;
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  &:hover:not(:disabled) {
+    border-color: var(--ifm-color-primary);
+  }
+}
+
+.showcase-guitar-content {
+  margin-top: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: rem-calc(8);
+  background: var(--ifm-color-emphasis-100);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.showcase-details {
+  margin: 0.75rem 0;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: rem-calc(8);
+  padding: 0.75rem 1rem;
+
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    user-select: none;
+  }
+
+  > *:not(summary) {
+    margin-top: 0.75rem;
+  }
+}
+
+.showcase-ar-qr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: rem-calc(8);
+  margin-bottom: 1rem;
+  text-align: center;
+
+  img {
+    border-radius: rem-calc(4);
+  }
+}
+
+// ── model-viewer hotspot buttons ─────────────────────────────────
+
+.showcase-hotspot {
+  display: block;
+  width: rem-calc(22);
+  height: rem-calc(22);
+  border-radius: 50%;
+  border: rem-calc(2) solid #fff;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+
+  &:not([data-visible]) {
+    background: transparent;
+    border-color: transparent;
+    pointer-events: none;
+  }
+}
+
+.showcase-hotspot-annotation {
+  background: rgba(0, 0, 0, 0.78);
+  border-radius: rem-calc(4);
+  color: #fff;
+  font-size: rem-calc(12);
+  font-weight: 500;
+  padding: rem-calc(4) rem-calc(8);
+  position: absolute;
+  bottom: calc(100% + #{rem-calc(8)});
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+// ── Pods back button (outside hotspot slot) ───────────────────────
+
+.showcase-back-btn {
+  position: absolute;
+  top: rem-calc(8);
+  left: rem-calc(8);
+  z-index: 10;
+  padding: rem-calc(5) rem-calc(12);
+  border-radius: rem-calc(6);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  font-size: rem-calc(13);
+  display: none;
+}
+
+.js-pods__btn--back--active {
+  display: block !important;
+}
+
+// Pods right/left hotspots — hidden until opened
+.js-pods__btn--right,
+.js-pods__btn--left {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.js-pods__btn--right--active,
+.js-pods__btn--left--active {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+// Pods active button hide state (during animation)
+.pods__btn--hide {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+// Pods open/close text toggle
+.js-pods__text--hide {
+  display: none;
+}
+
+// ── Guitar back button ────────────────────────────────────────────
+
+.showcase-guitar-back-btn {
+  position: absolute;
+  top: rem-calc(8);
+  left: rem-calc(8);
+  z-index: 10;
+  padding: rem-calc(5) rem-calc(12);
+  border-radius: rem-calc(6);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  font-size: rem-calc(13);
+  display: none;
+}
+
+.js-describe-back__btn--active {
+  display: block !important;
+}

@@ -1,0 +1,10 @@
+/**
+ * Global styles — imported in order so cascade is predictable.
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default.
+ */
+
+@use 'base';
+@use 'nav-cards';
+@use 'footer';
+@use 'showcase';

@@ -1,0 +1,33 @@
+@use 'variables' as *;
+
+/**
+ * Infima CSS custom properties — primary colour palette (indigo).
+ * The classic template bundles Infima by default.
+ */
+
+:root {
+  --ifm-color-primary: #4338ca;
+  --ifm-color-primary-dark: #3730a3;
+  --ifm-color-primary-darker: #312e8c;
+  --ifm-color-primary-darkest: #23206b;
+  --ifm-color-primary-light: #4f46e5;
+  --ifm-color-primary-lighter: #5b52e8;
+  --ifm-color-primary-lightest: #7c74ef;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #818cf8;
+  --ifm-color-primary-dark: #6a75f6;
+  --ifm-color-primary-darker: #5b67f5;
+  --ifm-color-primary-darkest: #3849f2;
+  --ifm-color-primary-light: #99a4fa;
+  --ifm-color-primary-lighter: #a5aefb;
+  --ifm-color-primary-lightest: #c7ccfd;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+img {
+  border-radius: rem-calc(8);
+}

@@ -1,0 +1,14 @@
+@use 'sass:math';
+
+// Base font size assumed by the browser (default 16px)
+$rem-base: 16;
+
+/// Convert a px value to rem.
+/// Usage: rem-calc(16) → 1rem, rem-calc(8) → 0.5rem
+@function rem-calc($px) {
+  @return math.div($px, $rem-base) * 1rem;
+}
+
+// Responsive breakpoints
+$bp-sm: 640px;
+$bp-md: 768px;
