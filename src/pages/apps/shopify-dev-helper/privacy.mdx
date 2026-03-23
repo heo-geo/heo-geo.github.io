@@ -1,0 +1,78 @@
+# Privacy Policy — Shopify Dev Helper
+
+_Last updated: March 23, 2026_
+
+## Overview
+
+Shopify Dev Helper is a Chrome extension designed for Shopify theme developers. It provides a side panel to inspect and interact with the Shopify AJAX API and theme utilities on the active browser tab.
+
+This policy explains what data the extension accesses, how it is used, and what is never collected or transmitted.
+
+---
+
+## Data We Do NOT Collect
+
+Shopify Dev Helper **does not**:
+
+- Collect, store, or transmit any personal data to external servers
+- Track your browsing history or activity
+- Send any information to the developer or third parties
+- Use analytics, advertising SDKs, or crash reporting services
+- Access data from tabs other than the one you are actively using
+
+---
+
+## Permissions and What They Are Used For
+
+| Permission | Purpose |
+|---|---|
+| `activeTab` | Read the URL of the current tab to detect whether it is a Shopify store |
+| `scripting` | Inject fetch requests into the active tab to bypass CORS restrictions when calling Shopify AJAX endpoints |
+| `sidePanel` | Display the extension UI as a Chrome side panel |
+| `storage` | Save form state (field values, last response) in session storage so it persists while the browser is open |
+| `tabs` | Listen for tab changes to re-detect the active store and open documentation links in a new tab |
+| `*://*.myshopify.com/*` and `*://*/*` | Required to inject scripts into Shopify storefront pages |
+
+---
+
+## Session Storage
+
+The extension uses `chrome.storage.session` to temporarily store:
+
+- Form field values you have entered (e.g. variant IDs, query strings)
+- The last API response received
+
+This data:
+- Is stored **locally on your device only**
+- Is **never sent anywhere**
+- Is **automatically cleared** when you close the browser or reload the extension
+
+---
+
+## Script Injection
+
+To call Shopify AJAX endpoints, the extension injects a small fetch script into the active tab. This is necessary because the extension panel itself is subject to CORS restrictions that prevent direct requests to store domains. The injected script only performs the specific API request you initiate and returns the response to the extension panel.
+
+---
+
+## Third-Party Services
+
+Shopify Dev Helper does not integrate with any third-party services, APIs, or SDKs beyond the Shopify AJAX API endpoints that you explicitly call through the extension UI.
+
+---
+
+## Changes to This Policy
+
+If this policy is updated, the "Last updated" date at the top of this document will be revised. Continued use of the extension after changes constitutes acceptance of the updated policy.
+
+---
+
+## Contact
+
+Questions or concerns? Please reach out:
+
+**h.terentiev@gmail.com**
+
+---
+
+[← Shopify Dev Helper](/apps/shopify-dev-helper)

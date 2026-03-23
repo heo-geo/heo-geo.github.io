@@ -1,0 +1,72 @@
+# Shopify Dev Helper — Chrome Extension
+
+**A developer tool for Shopify theme development.**
+Inspect and call the Shopify AJAX API, manage theme previews, and explore page context — all from a convenient side panel without leaving your browser.
+
+---
+
+## What It Does
+
+Shopify Dev Helper opens as a Chrome side panel on any Shopify storefront tab. It gives developers direct access to the Shopify AJAX API and theme utilities without writing a single line of code or opening a terminal.
+
+---
+
+## Features
+
+### AJAX API
+
+Interact with all Shopify AJAX endpoints directly from the panel:
+
+- **Cart** — Get the current cart, add items, update quantities, change line item properties, apply or remove discount codes, and clear the cart or its attributes
+- **Product** — Fetch full product data by handle, with auto-detection from the current page
+- **Product Recommendations** — Retrieve related or complementary product recommendations for any product ID
+- **Predictive Search** — Query the storefront search suggest endpoint with configurable resource types, fields, and result limits
+
+All responses are displayed in a collapsible, searchable JSON viewer.
+
+### Theme Utilities
+
+- **Preview Banner** — Toggle the Shopify theme preview bar by appending `pb=1` or `pb=0` to the current page URL
+- **Copy Preview URL** — Instantly copy the current page URL with `?preview_theme_id=` populated from `window.Shopify.theme.id`
+- **Page Context Inspector** — Read `ShopifyAnalytics.meta` and Shopify globals from the active tab to inspect page type, product, theme, currency, and locale data
+
+---
+
+## Why Use It
+
+- **No CORS issues** — Requests are executed inside the active tab, so they work exactly as they would in a real storefront
+- **No setup** — Open the panel, navigate to a Shopify store, and start making requests
+- **Persistent form state** — Field values and last responses are saved for the duration of your browser session so you can switch tabs without losing your work
+- **Built for developers** — Clean, minimal UI designed for speed and clarity during theme development and debugging
+
+---
+
+## How It Works
+
+1. Click the extension icon to open the side panel
+2. Navigate to any Shopify online store tab
+3. Use the AJAX API or Theme tabs to interact with the store
+4. Inspect the JSON response directly in the panel
+
+---
+
+## Permissions
+
+The extension requests only the permissions it needs:
+
+- **Active tab and scripting** — to inject fetch requests into the current Shopify tab (required to bypass CORS)
+- **Side panel** — to display the extension UI
+- **Storage** — to save form state locally within your browser session
+- **Tabs** — to detect store changes and open documentation links
+
+No data is ever collected, transmitted, or stored beyond your local browser session.
+
+---
+
+## Contact
+
+Questions, bugs, or ideas? **h.terentiev@gmail.com**
+
+---
+
+[Privacy Policy](/apps/shopify-dev-helper/privacy)
