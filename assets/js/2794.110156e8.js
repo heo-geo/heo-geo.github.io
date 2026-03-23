@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkheo_geo_page=globalThis.webpackChunkheo_geo_page||[]).push([[2794],{2794(e,h,a){a.r(h)}}]);

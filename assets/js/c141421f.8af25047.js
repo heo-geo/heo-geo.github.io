@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkheo_geo_page=globalThis.webpackChunkheo_geo_page||[]).push([[957],{936(e){e.exports=JSON.parse('{"name":"docusaurus-theme-search-algolia","id":"default"}')}}]);
