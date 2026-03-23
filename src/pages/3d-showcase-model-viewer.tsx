@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react';
 import type {ReactNode} from 'react';
 import Layout from '@theme/Layout';
+import Head from '@docusaurus/Head';
 // @ts-ignore — @site alias resolved by Docusaurus at build time
 import ModelViewer from '@site/src/components/ModelViewer';
 
@@ -201,6 +202,10 @@ export default function Showcase(): ReactNode {
     <Layout
       title="3D in Web Showcase using Google Model Viewer"
       description="Interactive 3D model demos using Google Model Viewer — annotations, AR, configuration, and animations.">
+      <Head>
+        <link rel="preload" as="fetch" href="/model-viewer/pods.glb" crossOrigin="anonymous" />
+        <link rel="preload" as="image" href="/model-viewer/pods.webp" />
+      </Head>
       <main style={{maxWidth: '900px', margin: '0 auto', padding: '3rem 1.5rem'}}>
         <h1>3D in Web Showcase using Google Model Viewer</h1>
         <p>
@@ -259,6 +264,7 @@ export default function Showcase(): ReactNode {
               poster="/model-viewer/pods.webp"
               camera-orbit="0deg 75deg 150%"
               max-camera-orbit="Infinity 157.5deg 150%"
+              camera-controls
             >
               <button className="showcase-back-btn js-pods__btn--back">Main view</button>
               <button
@@ -308,6 +314,8 @@ export default function Showcase(): ReactNode {
               className="showcase-model-viewer js-model-guitar"
               src="/model-viewer/guitar.glb"
               poster="/model-viewer/guitar-poster.webp"
+              loading="lazy"
+              camera-controls
             >
               <button
                 className="showcase-hotspot js-describe__btn--bottom"
@@ -364,6 +372,8 @@ export default function Showcase(): ReactNode {
               max-camera-orbit="auto auto 200%"
               camera-orbit="0deg 75deg 200%"
               shadow-intensity="0"
+              loading="lazy"
+              camera-controls
             />
           </div>
         </div>
@@ -418,6 +428,7 @@ export default function Showcase(): ReactNode {
               shadow-intensity="1"
               exposure="0.46"
               camera-controls
+              loading="lazy"
             />
           </div>
         </div>
@@ -459,6 +470,7 @@ export default function Showcase(): ReactNode {
                 ar-placement="wall"
                 ar-scale="fixed"
                 camera-controls
+                loading="lazy"
               />
             </div>
           </div>
@@ -477,6 +489,7 @@ export default function Showcase(): ReactNode {
                 src="/model-viewer/piano.glb"
                 ar
                 camera-controls
+                loading="lazy"
               />
             </div>
           </div>

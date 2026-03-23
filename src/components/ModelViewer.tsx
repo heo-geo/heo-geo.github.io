@@ -16,6 +16,8 @@ interface ModelViewerProps {
   'ar-placement'?: string;
   'ar-scale'?: string;
   exposure?: string;
+  loading?: 'eager' | 'lazy';
+  reveal?: 'auto' | 'interaction' | 'manual';
   slot?: string;
   children?: React.ReactNode;
 }

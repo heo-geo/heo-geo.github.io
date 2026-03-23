@@ -1,6 +1,7 @@
 import type {ReactNode} from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
+import Head from '@docusaurus/Head';
 // @ts-ignore — @site alias resolved by Docusaurus at build time
 import ModelViewer from '@site/src/components/ModelViewer';
 
@@ -9,6 +10,10 @@ export default function Home(): ReactNode {
     <Layout
       title="Heorhii Terentiev — Digital Garden"
       description="A personal corner of the web where I plant ideas, collect resources, and let thoughts grow over time.">
+      <Head>
+        <link rel="preload" as="fetch" href="/model-viewer/shopify.glb" crossOrigin="anonymous" />
+        <link rel="preload" as="image" href="/model-viewer/shopify-poster.png" />
+      </Head>
       <main style={{maxWidth: '760px', margin: '0 auto', padding: '3rem 1.5rem'}}>
 
         <img
