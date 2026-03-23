@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Heo Geo Page Blog</title>
+        <link>https://heo-geo.github.io/blog</link>
+        <description>Heo Geo Page Blog</description>
+        <lastBuildDate>Thu, 25 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[VaanTalk — Key to Success: Prototyping & Communication]]></title>
+            <link>https://heo-geo.github.io/blog/vaantalk-key-to-success</link>
+            <guid>https://heo-geo.github.io/blog/vaantalk-key-to-success</guid>
+            <pubDate>Thu, 25 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[A talk about prototyping and communication in development. Learn why clear communication and visual prototyping often save more time than perfect code.]]></description>
+            <content:encoded><![CDATA[<p>A talk about prototyping and communication in development. Learn why clear communication and visual prototyping often save more time than perfect code.</p>
+<p><img decoding="async" loading="lazy" alt="VaanTalk cover" src="https://heo-geo.github.io/assets/images/image_2025-12-12_11-25-24-edf312e6a1273afb4ffd0bb9ff9765fb.png" width="1751" height="1046" class="img_m9Pm"></p>
+<p>I recently gave a talk at <strong>VaanTalk</strong>, where I spoke about something that keeps coming back in my daily work: prototyping and communication.</p>
+<p>The talk was intentionally not about new frameworks, AI tools, or developer trends. Instead, it focused on a more fundamental part of our job that often gets overlooked.</p>
+<h2 class="anchor anchorTargetStickyNavbar_UCMm" id="developers-as-a-bridge">Developers as a bridge<a href="https://heo-geo.github.io/blog/vaantalk-key-to-success#developers-as-a-bridge" class="hash-link" aria-label="Direct link to Developers as a bridge" title="Direct link to Developers as a bridge" translate="no">​</a></h2>
+<p>I strongly believe that a developer's role goes beyond writing code. In practice, we often act as a bridge between different worlds:</p>
+<ul>
+<li class="">business and implementation</li>
+<li class="">ideas and constraints</li>
+<li class="">expectations and reality</li>
+</ul>
+<p>Code is usually the <em>last</em> step in that process.</p>
+<h2 class="anchor anchorTargetStickyNavbar_UCMm" id="why-prototyping-matters">Why prototyping matters<a href="https://heo-geo.github.io/blog/vaantalk-key-to-success#why-prototyping-matters" class="hash-link" aria-label="Direct link to Why prototyping matters" title="Direct link to Why prototyping matters" translate="no">​</a></h2>
+<p>Prototyping — especially visual prototyping — helps reduce misunderstandings early. It creates a shared reference point that allows everyone involved to talk about the same thing, even if they don't share the same technical language.</p>
+<p>In the talk, I explored:</p>
+<ul>
+<li class="">why prototyping is not just a "design thing"</li>
+<li class="">different levels of prototyping (from rough sketches to interactive demos)</li>
+<li class="">real examples where prototyping prevented costly mistakes</li>
+</ul>
+<p>Most of these examples came directly from real project experience, not theory.</p>
+<h2 class="anchor anchorTargetStickyNavbar_UCMm" id="a-recurring-lesson">A recurring lesson<a href="https://heo-geo.github.io/blog/vaantalk-key-to-success#a-recurring-lesson" class="hash-link" aria-label="Direct link to A recurring lesson" title="Direct link to A recurring lesson" translate="no">​</a></h2>
+<p>Preparing this talk reminded me of something simple but important:</p>
+<div class="theme-admonition theme-admonition-tip admonition_xGDO alert alert--success"><div class="admonitionHeading_WNFr"><span class="admonitionIcon_FtpR"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_hiHs"><p>Clear communication often saves more time than writing "perfect" code.</p></div></div>
+<p>The better we explain, visualize, and validate ideas early, the smoother the implementation phase becomes.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_UCMm" id="presentation-slides">Presentation slides<a href="https://heo-geo.github.io/blog/vaantalk-key-to-success#presentation-slides" class="hash-link" aria-label="Direct link to Presentation slides" title="Direct link to Presentation slides" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Slide 1" src="https://heo-geo.github.io/assets/images/vaan-talk-1-4a38adf0cb76eea1e0017f70ad0d10ae.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 2" src="https://heo-geo.github.io/assets/images/vaan-talk-2-b4899fb5db249032085a8575b8830b34.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 3" src="https://heo-geo.github.io/assets/images/vaan-talk-3-b43b9cf5dfefd899eeca925cda0e1c2b.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 4" src="https://heo-geo.github.io/assets/images/vaan-talk-4-8e13bff1939dd6b55c52fa14127a90a1.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 5" src="https://heo-geo.github.io/assets/images/vaan-talk-5-ac963dea175387d728d9b8058fd623be.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 6" src="https://heo-geo.github.io/assets/images/vaan-talk-6-7dfabcc1442ab9466313ea4010a24519.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 7" src="https://heo-geo.github.io/assets/images/vaan-talk-7-5e02e3ff6682a1da80f965ed4445409d.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 8" src="https://heo-geo.github.io/assets/images/vaan-talk-8-2a2c60b19d48514d64ff7c9e763800fd.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 9" src="https://heo-geo.github.io/assets/images/vaan-talk-9-6e655409bc21024ede60409b7b62df1b.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 10" src="https://heo-geo.github.io/assets/images/vaan-talk-10-0971e96a929de4b4676c6eee06ab45b5.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 11" src="https://heo-geo.github.io/assets/images/vaan-talk-11-761f0af27dce011f420f034a39e65436.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 12" src="https://heo-geo.github.io/assets/images/vaan-talk-12-e429adb3fa52fb7dfba043ec580f8b28.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 13" src="https://heo-geo.github.io/assets/images/vaan-talk-13-1b09e41cd0d8c60d758140fe43664255.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 14" src="https://heo-geo.github.io/assets/images/vaan-talk-14-b508e3a565de93d4c6e87141b89ff59c.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 15" src="https://heo-geo.github.io/assets/images/vaan-talk-15-4808404871abb5fb73cf0d21a4aede42.jpg" width="3000" height="1688" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Slide 16" src="https://heo-geo.github.io/assets/images/vaan-talk-16-df60a9f88e9b65dc4cd264da78d8098d.jpg" width="3000" height="1688" class="img_m9Pm"></p>
+<p><strong><a href="https://heo-geo.github.io/assets/files/vaantalk-presentation-d552f5aa80b520bf3bdb1287c7a50274.pdf" target="_blank" class="">Download PDF</a></strong></p>
+<hr>
+<p>I hope it helps others refine how they communicate ideas and approach daily development work.</p>]]></content:encoded>
+            <category>Talks</category>
+        </item>
+        <item>
+            <title><![CDATA[☄️ Accessing Metaobjects in Liquid]]></title>
+            <link>https://heo-geo.github.io/blog/accessing-metaobjects-using-liquid</link>
+            <guid>https://heo-geo.github.io/blog/accessing-metaobjects-using-liquid</guid>
+            <pubDate>Fri, 04 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[I was recently working on a Shopify theme and needed to grab Metaobjects - first from a Metafield reference, then directly from the shop itself. The docs are helpful, but I figured I'd drop a quick summary here in case someone else is searching like I was.]]></description>
+            <content:encoded><![CDATA[<p>I was recently working on a Shopify theme and needed to grab <strong>Metaobjects</strong> - first from a <strong>Metafield reference</strong>, then directly from the shop itself. The docs are helpful, but I figured I'd drop a quick summary here in case someone else is searching like I was.</p>
+<h2 class="anchor anchorTargetStickyNavbar_UCMm" id="-getting-metaobjects-from-a-metafield">🔗 Getting Metaobjects from a Metafield<a href="https://heo-geo.github.io/blog/accessing-metaobjects-using-liquid#-getting-metaobjects-from-a-metafield" class="hash-link" aria-label="Direct link to 🔗 Getting Metaobjects from a Metafield" title="Direct link to 🔗 Getting Metaobjects from a Metafield" translate="no">​</a></h2>
+<p>If you've got a metafield on a product (or any resource) that stores <strong>Metaobject references</strong>, you can loop through it like this:</p>
+<div class="language-liquid codeBlockContainer_G9Q3 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_KPzx"><pre tabindex="0" class="prism-code language-liquid codeBlock_X5zZ thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_IHTV"><span class="token-line" style="color:#F8F8F2"><span class="token plain">{% for metaobject in product.metafields.custom.pdp_faq_items.value %}</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">  {% if metaobject.question_single and metaobject.answer_single %}</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    &lt;ul&gt;</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">      &lt;li&gt;</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">        &lt;strong&gt;Q:&lt;/strong&gt; {{ metaobject.question_single }}&lt;br&gt;</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">        &lt;strong&gt;A:&lt;/strong&gt; {{ metaobject.answer_single }}</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">      &lt;/li&gt;</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    &lt;/ul&gt;</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">  {% endif %}</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">{% endfor %}</span><br></span></code></pre></div></div>
+<ul>
+<li class=""><code>.value</code> gives you the array of metaobjects.</li>
+<li class="">The field names like <code>question_single</code> and <code>answer_single</code> should match what's defined in your metaobject template.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_UCMm" id="-accessing-metaobjects-directly-via-shopmetaobjects">📦 Accessing Metaobjects Directly via <code>shop.metaobjects</code><a href="https://heo-geo.github.io/blog/accessing-metaobjects-using-liquid#-accessing-metaobjects-directly-via-shopmetaobjects" class="hash-link" aria-label="Direct link to -accessing-metaobjects-directly-via-shopmetaobjects" title="Direct link to -accessing-metaobjects-directly-via-shopmetaobjects" translate="no">​</a></h2>
+<p>If you're working with <strong>site-wide or shared content</strong> (e.g. modals, banners, color patterns, size charts), Shopify gives you direct access through the <code>shop.metaobjects</code> object.</p>
+<p>Here's an example of grabbing a <strong>specific metaobject</strong> by handle:</p>
+<div class="language-liquid codeBlockContainer_G9Q3 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_KPzx"><pre tabindex="0" class="prism-code language-liquid codeBlock_X5zZ thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_IHTV"><span class="token-line" style="color:#F8F8F2"><span class="token plain">{% liquid</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">  assign upsell_popup = shop.metaobjects.pdp_upsell_pop_up_modal['handle-of-the-metaobject']</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">  assign modal_background_color = upsell_popup.modal_background_color</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">  assign modal_title = upsell_popup.modal_title</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">  assign modal_description = upsell_popup.modal_description | metafield_tag</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">  assign modal_product_image = upsell_popup.modal_product_image</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">  assign modal_product_title = upsell_popup.modal_product_title</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">  assign modal_product_cta_text = upsell_popup.modal_product_cta_text</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">  assign modal_upsell_product = upsell_popup.modal_upsell_product.value</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">%}</span><br></span></code></pre></div></div>
+<p>You can also loop through <strong>all</strong> metaobjects of a given type if needed:</p>
+<div class="language-liquid codeBlockContainer_G9Q3 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_KPzx"><pre tabindex="0" class="prism-code language-liquid codeBlock_X5zZ thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_IHTV"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&lt;ul&gt;</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">  {% for item in shop.metaobjects['shopify--color-pattern'].values %}</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    &lt;li&gt;{{ item.label }}&lt;/li&gt;</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">  {% endfor %}</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">&lt;/ul&gt;</span><br></span></code></pre></div></div>
+<ul>
+<li class=""><code>shopify--color-pattern</code> is the metaobject type (replace with yours).</li>
+<li class="">You access fields like label, title, or whatever's defined in the object.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_UCMm" id="-final-tip">🧠 Final Tip<a href="https://heo-geo.github.io/blog/accessing-metaobjects-using-liquid#-final-tip" class="hash-link" aria-label="Direct link to 🧠 Final Tip" title="Direct link to 🧠 Final Tip" translate="no">​</a></h2>
+<p>Use <strong>Metafield references</strong> when content is tied to specific resources (like FAQs per product), and reach for <code>shop.metaobjects</code> for reusable, global content (like modals or site-wide promotions).</p>
+<p>✅ Always check if fields exist before rendering, especially if you're working with optional content, to prevent errors in production.</p>
+<p><strong>Hope this helped you on your search! 😊</strong></p>]]></content:encoded>
+            <category>Shopify</category>
+        </item>
+        <item>
+            <title><![CDATA[Shopify Storefront Development - Intro to the Headless Approach]]></title>
+            <link>https://heo-geo.github.io/blog/intro-to-the-shopify-headless-approach</link>
+            <guid>https://heo-geo.github.io/blog/intro-to-the-shopify-headless-approach</guid>
+            <pubDate>Fri, 04 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[1. Hydrogen & Oxygen]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_UCMm" id="1-hydrogen--oxygen">1. <strong>Hydrogen &amp; Oxygen</strong><a href="https://heo-geo.github.io/blog/intro-to-the-shopify-headless-approach#1-hydrogen--oxygen" class="hash-link" aria-label="Direct link to 1-hydrogen--oxygen" title="Direct link to 1-hydrogen--oxygen" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Hydrogen &amp;amp; Oxygen" src="https://heo-geo.github.io/assets/images/shopify-headless-schema-2-d292655ca2fd7db5482b614fc1f8c133.png" width="2000" height="1472" class="img_m9Pm"></p>
+<p>Shopify's official headless development stack consists of <strong>Hydrogen</strong> and <strong>Oxygen</strong> — a set of tools designed to provide a clear path for building fast, scalable, and dynamic headless commerce storefronts.</p>
+<p><strong>Hydrogen</strong> is a React-based framework that combines modern development principles such as Optimistic UI, Nested Routes, and Progressive Enhancement. It comes with pre-configured commerce-specific components, hooks, and utilities tailored to work seamlessly with the Shopify API. The stack is modular and performance-optimized, giving developers a strong foundation without limiting flexibility. It also allows easy integration with any third-party tools or services already used in your tech ecosystem.</p>
+<p>While Hydrogen storefronts can be hosted on any cloud provider, the <strong>simplest and most optimized way</strong> to deploy is via <strong>Oxygen</strong> — Shopify's global edge-hosting solution. Oxygen offers rendering at the edge with 285+ points of presence worldwide. It gives developers full control over deployment and is included in all Shopify plans at no additional cost. This ensures maximum performance and uptime across the globe while reducing infrastructure costs.</p>
+<p>📘 Learn more about Hydrogen <a href="https://shopify.dev/docs/custom-storefronts/hydrogen/getting-started" target="_blank" rel="noopener noreferrer" class="">here</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_UCMm" id="2-custom-tech-stack">2. <strong>Custom Tech Stack</strong><a href="https://heo-geo.github.io/blog/intro-to-the-shopify-headless-approach#2-custom-tech-stack" class="hash-link" aria-label="Direct link to 2-custom-tech-stack" title="Direct link to 2-custom-tech-stack" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Headless Shopify Schema" src="https://heo-geo.github.io/assets/images/headless-shopify-schema-d3c42f0aafa34d85c26327964e7618d6.png" width="2000" height="1410" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Shopify Structure Schema" src="https://heo-geo.github.io/assets/images/shopify-structure-schema-1711429a43138783621d42a510afc5ed.png" width="2000" height="892" class="img_m9Pm"></p>
+<p>Shopify also supports full <strong>tech stack flexibility</strong>. Developers can use any frontend framework, infrastructure, or hosting provider to create a custom storefront experience. Through the <strong>Headless sales channel</strong>, Shopify APIs can be integrated directly into existing systems and workflows.</p>
+<p>This approach is ideal for teams that already work with technologies like Vue.js, Svelte, Angular, or prefer building with their own internal architecture. API-based access enables complete freedom to design and develop without being limited to Shopify's theme structure.</p>
+<p>📘 Learn more about custom headless builds <a href="https://shopify.dev/docs/custom-storefronts/headless" target="_blank" rel="noopener noreferrer" class="">here</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_UCMm" id="3-mobile-app-integration">3. <strong>Mobile App Integration</strong><a href="https://heo-geo.github.io/blog/intro-to-the-shopify-headless-approach#3-mobile-app-integration" class="hash-link" aria-label="Direct link to 3-mobile-app-integration" title="Direct link to 3-mobile-app-integration" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Mobile App Integration" src="https://heo-geo.github.io/assets/images/mobile-schema-137ef711647dbd917509abefd6d896d7.png" width="2000" height="1090" class="img_m9Pm"></p>
+<p>If you're building a <strong>native mobile app</strong>, Shopify provides dedicated SDKs to bring ecommerce functionality directly into your mobile experience.</p>
+<p>Supported platforms include:</p>
+<ul>
+<li class=""><strong>iOS (Swift)</strong></li>
+<li class=""><strong>Android</strong></li>
+<li class=""><strong>React Native</strong></li>
+</ul>
+<p>These SDKs allow developers to connect to the Shopify backend for product data, checkout, and customer sessions — all with secure and high-performing native integrations.</p>
+<p>📘 Learn more about mobile integrations <a href="https://shopify.dev/docs/custom-storefronts/mobile-apps" target="_blank" rel="noopener noreferrer" class="">here</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_UCMm" id="-key-considerations">💡 <strong>Key Considerations</strong><a href="https://heo-geo.github.io/blog/intro-to-the-shopify-headless-approach#-key-considerations" class="hash-link" aria-label="Direct link to -key-considerations" title="Direct link to -key-considerations" translate="no">​</a></h2>
+<p>While headless Shopify development — particularly with Hydrogen and Oxygen — offers powerful flexibility, scalability, and performance, it introduces certain trade-offs and challenges compared to traditional theme-based setups.</p>
+<p>Here are the key points to keep in mind:</p>
+<ul>
+<li class="">
+<p><strong>Higher development costs</strong><br>
+<!-- -->Building and maintaining a custom storefront requires more time, technical expertise, and ongoing support compared to using standard Shopify themes.</p>
+</li>
+<li class="">
+<p><strong>No visual builder</strong><br>
+<!-- -->With headless setups, you lose access to Shopify's built-in <strong>Theme Customizer</strong>. Any visual editing or layout adjustments must be implemented directly in code or recreated through a custom admin interface — significantly increasing project complexity.</p>
+</li>
+<li class="">
+<p><strong>App Store limitations</strong><br>
+<!-- -->Most apps in the <strong>Shopify App Store</strong> are built to automatically integrate with Shopify themes using embedded scripts, theme blocks, or native UI extensions.</p>
+<p>In headless environments:</p>
+<ul>
+<li class="">These automatic integrations <strong>don't work out of the box</strong></li>
+<li class="">Developers must implement all app functionality <strong>manually using APIs</strong></li>
+<li class="">Some app features may be <strong>partially or entirely incompatible</strong>, or require workarounds</li>
+</ul>
+</li>
+<li class="">
+<p><strong>Developer-focused tooling</strong><br>
+<!-- -->Hydrogen and other headless solutions are built specifically for developers. They provide complete control and power — but require a team comfortable with code-driven development and ongoing technical maintenance.</p>
+</li>
+</ul>
+<p><strong>Summary</strong></p>
+<blockquote>
+<p>Headless architecture offers unmatched customization and performance — but it also demands deeper technical resources and a higher level of planning.
+There's no "one-size-fits-all" approach. The best choice depends on your <strong>business goals</strong>, <strong>technical capabilities</strong>, and <strong>budget</strong>.</p>
+</blockquote>]]></content:encoded>
+            <category>Shopify</category>
+        </item>
+        <item>
+            <title><![CDATA[📮 Sharing Preview Links During Theme Development]]></title>
+            <link>https://heo-geo.github.io/blog/sharing-preview-links-during-theme-development</link>
+            <guid>https://heo-geo.github.io/blog/sharing-preview-links-during-theme-development</guid>
+            <pubDate>Fri, 04 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[When a team is actively working on a project and needs to regularly share progress with clients or other stakeholders, preview links for development themes are commonly used.]]></description>
+            <content:encoded><![CDATA[<p>When a team is actively working on a project and needs to regularly share progress with clients or other stakeholders, <strong>preview links</strong> for development themes are commonly used.</p>
+<p><img decoding="async" loading="lazy" alt="Preview link expiration" src="https://heo-geo.github.io/assets/images/preview-1-404f042bc303ff86b0201df86e8d9014.png" width="2500" height="1370" class="img_m9Pm">
+However, there's one major downside to this approach: <strong>preview links expire after 48 hours</strong>. This can easily lead to confusion or unnecessary concern if a client or teammate tries to access an outdated link. If the link no longer works, they might assume something is broken or missing.</p>
+<p>Fortunately, there's a more reliable solution.</p>
+<p>Every theme in Shopify has a <strong>unique ID</strong>, and you can use this ID to create a <strong>permanent preview link</strong> that doesn't expire. Instead of generating a temporary preview link, simply include the <code>preview_theme_id</code> parameter in the URL — Shopify will automatically load the correct version of the theme.</p>
+<p>You can find the theme ID in the URL when the theme is open in the <strong>Theme Customizer</strong>.
+<img decoding="async" loading="lazy" alt="Preview link expiration" src="https://heo-geo.github.io/assets/images/preview-theme-instruction-eea7c2c0719a8c7c2b84e12bac14f5f2.png" width="2286" height="1440" class="img_m9Pm"></p>
+<p>Here's an example of a permanent preview link using a theme ID:</p>
+<p>🔗 <code>https://test-store.com?preview_theme_id=155153826068</code></p>
+<p>Alternatively, you can simply copy the preview link this way:
+<img decoding="async" loading="lazy" alt="Preview link" src="https://heo-geo.github.io/assets/images/preview-2-9d65af870c7ec5f498e9a6c0382e40d4.png" width="2356" height="1262" class="img_m9Pm">
+<img decoding="async" loading="lazy" alt="Preview link" src="https://heo-geo.github.io/assets/images/preview-3-e4cf6d285cd3703c914f175021ca77da.png" width="2358" height="1246" class="img_m9Pm"></p>
+<p>This method might seem obvious once you know it — but many people are unaware, which often leads to confusion and unnecessary back-and-forth. Using permanent theme preview links makes the review process smoother and ensures everyone stays aligned during development.</p>]]></content:encoded>
+            <category>Shopify</category>
+        </item>
+        <item>
+            <title><![CDATA[🧩 Hiding or Showing the Shopify Preview Bar with pb=0 - pb=1]]></title>
+            <link>https://heo-geo.github.io/blog/shopify-preview-bar</link>
+            <guid>https://heo-geo.github.io/blog/shopify-preview-bar</guid>
+            <pubDate>Fri, 04 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[When sharing a theme preview link in Shopify, the Preview Bar often appears at the bottom of the page. While helpful for admins, it can be distracting during client reviews, QA sessions, or when showcasing designs externally.]]></description>
+            <content:encoded><![CDATA[<p>When sharing a <strong>theme preview link</strong> in Shopify, the <strong>Preview Bar</strong> often appears at the bottom of the page. While helpful for admins, it can be distracting during <strong>client reviews</strong>, <strong>QA sessions</strong>, or when showcasing designs externally.</p>
+<p>Thankfully, you can <strong>toggle the preview bar</strong> with a simple query parameter:</p>
+<p>✅ <strong>Hide the Preview Bar:</strong></p>
+<p>Add <code>?pb=0</code> to your preview URL.
+<strong>Example:</strong>
+<code>https://yourstore.myshopify.com/?preview_theme_id=123456789&amp;pb=0</code></p>
+<p>🔄 <strong>Show the Preview Bar Again:</strong></p>
+<p>Use <code>?pb=1</code> to restore it.
+<strong>Example:</strong>
+<code>https://yourstore.myshopify.com/?preview_theme_id=123456789&amp;pb=1</code></p>
+<p>⚠️ Important Note on Caching</p>
+<p>Shopify <strong>caches your preview bar preference</strong> in your browser session. That means:</p>
+<ul>
+<li class="">
+<p>Once you hide or show it with <code>pb=0</code> or <code>pb=1</code>, that state will persist across previews</p>
+</li>
+<li class="">
+<p>The preference stays <strong>until the cache is reset</strong> or a <strong>new query parameter</strong> is added to the URL</p>
+</li>
+</ul>
+<p>So if you're still seeing the bar (or not seeing it), try changing the parameter or clearing the cache to reset the state.</p>
+<hr>
+<p>It's a simple tweak — but it helps create a cleaner, more professional experience when sharing your work. 💡</p>]]></content:encoded>
+            <category>Shopify</category>
+        </item>
+        <item>
+            <title><![CDATA[🕵️‍♂️Who’s Who in the Shopify Partner Ecosystem]]></title>
+            <link>https://heo-geo.github.io/blog/who-is-who-in-shopify-partner-ecosystem</link>
+            <guid>https://heo-geo.github.io/blog/who-is-who-in-shopify-partner-ecosystem</guid>
+            <pubDate>Fri, 04 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Shopify’s true strength goes beyond its core platform — it lies in the global network of partners who bring ideas to life, customize functionality, and help ecommerce businesses grow at every stage.]]></description>
+            <content:encoded><![CDATA[<p>Shopify’s true strength goes beyond its core platform — it lies in the global network of partners who bring ideas to life, customize functionality, and help ecommerce businesses grow at every stage.</p>
+<p>But not all partners serve the same purpose. Some focus on design, others build apps, and many offer end-to-end services that touch every part of a merchant’s business.</p>
+<p>In this article, we’ll break down the different types of Shopify Partners, what they do, and how they contribute to the success of merchants around the world.</p>
+<h2 class="anchor anchorTargetStickyNavbar_UCMm" id="-types-of-shopify-partners">🧩 Types of Shopify Partners<a href="https://heo-geo.github.io/blog/who-is-who-in-shopify-partner-ecosystem#-types-of-shopify-partners" class="hash-link" aria-label="Direct link to 🧩 Types of Shopify Partners" title="Direct link to 🧩 Types of Shopify Partners" translate="no">​</a></h2>
+<p>Shopify's partner ecosystem includes a diverse mix of roles — each bringing unique value to both merchants and the platform.
+<img decoding="async" loading="lazy" alt="Who&amp;#39;s Who in the Shopify Partner Ecosystem" src="https://heo-geo.github.io/assets/images/shopify-partners-97d8cc0b1099637384439cbfbf749dbe.png" width="890" height="520" class="img_m9Pm"></p>
+<h3 class="anchor anchorTargetStickyNavbar_UCMm" id="-theme-developers">🎨 Theme Developers<a href="https://heo-geo.github.io/blog/who-is-who-in-shopify-partner-ecosystem#-theme-developers" class="hash-link" aria-label="Direct link to 🎨 Theme Developers" title="Direct link to 🎨 Theme Developers" translate="no">​</a></h3>
+<p>Front-end developers — often called&nbsp;<strong>Shopify Theme Developers</strong>&nbsp;— are responsible for building or customizing the&nbsp;<strong>storefront</strong>, which is the customer-facing part of a Shopify store.</p>
+<p>Traditionally, they work with:</p>
+<ul>
+<li class="">
+<p><strong>Liquid</strong>&nbsp;— Shopify’s templating language</p>
+</li>
+<li class="">
+<p><strong>HTML, CSS, and JavaScript</strong>&nbsp;— for structure, styling, and interactivity</p>
+</li>
+<li class="">
+<p><strong>Theme tools</strong>&nbsp;— such as Shopify CLI, the Dawn theme, and the visual Theme Editor</p>
+</li>
+</ul>
+<p>Their goal is to deliver fast, responsive, and branded shopping experiences using Shopify’s out-of-the-box capabilities.</p>
+<h3 class="anchor anchorTargetStickyNavbar_UCMm" id="-what-about-headless">🧠 What About Headless?<a href="https://heo-geo.github.io/blog/who-is-who-in-shopify-partner-ecosystem#-what-about-headless" class="hash-link" aria-label="Direct link to 🧠 What About Headless?" title="Direct link to 🧠 What About Headless?" translate="no">​</a></h3>
+<p>In more advanced use cases, some developers take a&nbsp;<strong>headless</strong>&nbsp;approach — separating the frontend from Shopify’s backend. This allows for full design control and performance optimization using modern frameworks like:</p>
+<ul>
+<li class="">
+<p><strong>Next.js</strong></p>
+</li>
+<li class="">
+<p><strong>Remix</strong></p>
+</li>
+<li class="">
+<p>others</p>
+</li>
+</ul>
+<p>In a headless architecture, the storefront becomes a standalone application that communicates with Shopify via the&nbsp;<strong>Storefront API</strong>&nbsp;or&nbsp;<strong>GraphQL Admin API</strong>. This approach enables:</p>
+<ul>
+<li class="">
+<p>Blazing-fast page speeds through static generation or server-side rendering</p>
+</li>
+<li class="">
+<p>Full control over user experience and interface</p>
+</li>
+<li class="">
+<p>Easier integration with third-party systems</p>
+</li>
+</ul>
+<p>While more complex, headless architecture is growing in popularity among larger merchants who demand flexibility, speed, and custom UI/UX.</p>
+<blockquote>
+<p>💡 Both approaches — traditional themes and headless — have their strengths and trade-offs. There’s no “best” solution, only the one that fits your business goals and technical capacity.</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_UCMm" id="️-app-developers">⚙️ App Developers<a href="https://heo-geo.github.io/blog/who-is-who-in-shopify-partner-ecosystem#%EF%B8%8F-app-developers" class="hash-link" aria-label="Direct link to ⚙️ App Developers" title="Direct link to ⚙️ App Developers" translate="no">​</a></h3>
+<p>Back-end developers play a crucial role in Shopify’s ecosystem by building&nbsp;<strong>Shopify Apps</strong>&nbsp;— tools that extend the platform’s built-in functionality. Shopify provides a strong ecommerce core, but apps are how merchants unlock truly custom experiences.
+<img decoding="async" loading="lazy" alt="Schema Ecosystem 1" src="https://heo-geo.github.io/assets/images/schema-ecosystem-1-6a37097de7a87a73d844b935852b06e1.png" width="943" height="831" class="img_m9Pm"></p>
+<p>Apps can be:</p>
+<ul>
+<li class="">
+<p><strong>Custom apps</strong>&nbsp;— tailored for one merchant’s specific needs</p>
+</li>
+<li class="">
+<p><strong>Public apps</strong>&nbsp;— published to the Shopify App Store and used by thousands</p>
+</li>
+</ul>
+<p>These apps typically run as external web applications and connect to Shopify using&nbsp;<strong>REST or GraphQL APIs</strong>. Popular stacks include&nbsp;<strong>Node.js</strong>,&nbsp;<strong>React</strong>, and&nbsp;<strong>PostgreSQL</strong>.</p>
+<h4 class="anchor anchorTargetStickyNavbar_UCMm" id="-what-do-shopify-apps-do">📦 What Do Shopify Apps Do?<a href="https://heo-geo.github.io/blog/who-is-who-in-shopify-partner-ecosystem#-what-do-shopify-apps-do" class="hash-link" aria-label="Direct link to 📦 What Do Shopify Apps Do?" title="Direct link to 📦 What Do Shopify Apps Do?" translate="no">​</a></h4>
+<p>Apps add features, automate workflows, and integrate Shopify with other platforms. They’re essential for adapting Shopify to fit any business model.</p>
+<p>Examples include:</p>
+<ul>
+<li class="">
+<p><strong>Inventory and fulfillment automation</strong><br>
+<!-- -->Sync stock across locations, trigger fulfillment events, or manage dropshipping.</p>
+</li>
+<li class="">
+<p><strong>Custom product logic</strong><br>
+<!-- -->Add subscription options, tiered pricing, product bundles, or dynamic checkout flows.</p>
+</li>
+<li class="">
+<p><strong>Sales and marketing tools</strong><br>
+<!-- -->Build loyalty programs, upsell systems, and referral tracking.</p>
+</li>
+<li class="">
+<p><strong>Third-party integrations</strong><br>
+<!-- -->Connect Shopify with CRMs (e.g., Salesforce), ERPs (e.g., NetSuite), and accounting or shipping platforms.</p>
+</li>
+<li class="">
+<p><strong>Admin tools and dashboards</strong><br>
+<!-- -->Create custom merchant-facing dashboards and Shopify Admin UI enhancements using App Bridge.</p>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_UCMm" id="-why-apps-matter">🧠 Why Apps Matter<a href="https://heo-geo.github.io/blog/who-is-who-in-shopify-partner-ecosystem#-why-apps-matter" class="hash-link" aria-label="Direct link to 🧠 Why Apps Matter" title="Direct link to 🧠 Why Apps Matter" translate="no">​</a></h4>
+<p>Apps allow developers to tailor Shopify for businesses with complex, industry-specific, or rapidly evolving needs. They’re where&nbsp;<strong>technical creativity meets real-world challenges</strong>, and they power much of the innovation within the ecosystem.</p>
+<h3 class="anchor anchorTargetStickyNavbar_UCMm" id="️-agencies--full-service-partners">🏗️ Agencies &amp; Full-Service Partners<a href="https://heo-geo.github.io/blog/who-is-who-in-shopify-partner-ecosystem#%EF%B8%8F-agencies--full-service-partners" class="hash-link" aria-label="Direct link to 🏗️ Agencies &amp; Full-Service Partners" title="Direct link to 🏗️ Agencies &amp; Full-Service Partners" translate="no">​</a></h3>
+<p>Agencies provide&nbsp;<strong>end-to-end services</strong>&nbsp;— offering strategy, design, development, and marketing under one roof. They often work with cross-functional teams that include:</p>
+<ul>
+<li class="">
+<p>Designers and front-end developers</p>
+</li>
+<li class="">
+<p>Back-end and app developers</p>
+</li>
+<li class="">
+<p>Marketers and strategists</p>
+</li>
+</ul>
+<p>They typically support merchants with:</p>
+<ul>
+<li class="">
+<p>Full custom store builds</p>
+</li>
+<li class="">
+<p>Platform migrations</p>
+</li>
+<li class="">
+<p>Ongoing technical and UX optimization</p>
+</li>
+<li class="">
+<p>Conversion rate optimization (CRO) and growth marketing</p>
+</li>
+</ul>
+<p>Agencies are ideal for merchants seeking a&nbsp;<strong>long-term partner</strong>&nbsp;or launching complex, high-volume stores.</p>
+<h3 class="anchor anchorTargetStickyNavbar_UCMm" id="-integration-partners--tech-providers">🔌 Integration Partners &amp; Tech Providers<a href="https://heo-geo.github.io/blog/who-is-who-in-shopify-partner-ecosystem#-integration-partners--tech-providers" class="hash-link" aria-label="Direct link to 🔌 Integration Partners &amp; Tech Providers" title="Direct link to 🔌 Integration Partners &amp; Tech Providers" translate="no">​</a></h3>
+<p>These partners specialize in&nbsp;<strong>connecting Shopify to external systems</strong>, enabling operational efficiency and scaling behind the scenes.</p>
+<p>They help merchants:</p>
+<ul>
+<li class="">
+<p>Integrate with ERPs, POS systems, fulfillment networks, or PIMs</p>
+</li>
+<li class="">
+<p>Build custom APIs and data pipelines</p>
+</li>
+<li class="">
+<p>Automate cross-platform workflows using tools like&nbsp;<strong>Zapier</strong>&nbsp;or custom scripts</p>
+</li>
+</ul>
+<p>These partners are essential for mid-size to enterprise merchants managing complex operations and multiple business systems.</p>
+<h3 class="anchor anchorTargetStickyNavbar_UCMm" id="-marketing-partners">📣 Marketing Partners<a href="https://heo-geo.github.io/blog/who-is-who-in-shopify-partner-ecosystem#-marketing-partners" class="hash-link" aria-label="Direct link to 📣 Marketing Partners" title="Direct link to 📣 Marketing Partners" translate="no">​</a></h3>
+<p>Marketing-focused partners drive&nbsp;<strong>customer acquisition and retention</strong>. They specialize in:</p>
+<ul>
+<li class="">
+<p>Paid media and performance marketing (e.g., Meta Ads, Google Ads, TikTok)</p>
+</li>
+<li class="">
+<p>SEO and content strategy</p>
+</li>
+<li class="">
+<p>Email and SMS marketing automation</p>
+</li>
+<li class="">
+<p>Loyalty, affiliate, and referral program setup</p>
+</li>
+</ul>
+<p>They often work with platforms like&nbsp;<strong>Klaviyo</strong>,&nbsp;<strong>Yotpo</strong>,&nbsp;<strong>Postscript</strong>, or&nbsp;<strong>ReConvert</strong>, ensuring that campaigns are integrated, data-driven, and optimized for performance.</p>
+<h2 class="anchor anchorTargetStickyNavbar_UCMm" id="-final-thoughts">💡 Final Thoughts<a href="https://heo-geo.github.io/blog/who-is-who-in-shopify-partner-ecosystem#-final-thoughts" class="hash-link" aria-label="Direct link to 💡 Final Thoughts" title="Direct link to 💡 Final Thoughts" translate="no">​</a></h2>
+<p>Understanding the different types of Shopify Partners helps merchants, managers, and developers make smarter decisions — whether you're building a store, scaling an existing one, or launching your own service in the ecosystem.</p>
+<p>Each partner brings something unique to the table — and when they collaborate effectively, the Shopify ecosystem becomes more powerful than the sum of its parts.</p>
+<blockquote>
+<p>🔄 The best results happen when the right partners work together to create something tailored, scalable, and impactful.</p>
+</blockquote>]]></content:encoded>
+            <category>Shopify</category>
+        </item>
+    </channel>
+</rss>

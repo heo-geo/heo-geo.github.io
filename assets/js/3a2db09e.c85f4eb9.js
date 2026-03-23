@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkheo_geo_page=globalThis.webpackChunkheo_geo_page||[]).push([[8121],{8070(a){a.exports=JSON.parse('{"tags":[{"label":"Talks","permalink":"/blog/tags/talks","count":1},{"label":"Shopify","permalink":"/blog/tags/shopify","count":5}]}')}}]);
