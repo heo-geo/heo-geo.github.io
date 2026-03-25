@@ -125,7 +125,7 @@ pagination_next: null
 
 - [10 Websites for Free Stock Photos - Designcise](https://www.designcise.com/web/tutorial/best-handpicked-resources-for-free-to-use-stock-photos)
 - [Space SVG images - Freepik](https://www.freepik.com/free-photos-vectors/space-svg)
-- [Free freelance illustrations | Reshot](https://www.reshot.com/free-vector-illustrations/freelance/)
+- [Kaboompics](https://kaboompics.com/)
 
 ---
 
