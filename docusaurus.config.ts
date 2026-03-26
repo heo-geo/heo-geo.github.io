@@ -90,6 +90,13 @@ const config: Config = {
             {label: '🌐 3D in Web', to: '/docs/3d-in-web'},
           ],
         },
+        {
+          label: 'Projects',
+          position: 'left',
+          items: [
+            {type: 'html', value: '<a class="dropdown__link" href="/apps/shopify-dev-helper"><img src="/img/shopify-dev-helper-icon.png" alt="" style="width:18px;height:18px;vertical-align:middle;margin-right:8px;border-radius:4px" />Shopify Dev Helper</a>'},
+          ],
+        },
         {to: '/blog', label: 'Articles & Talks', position: 'left'},
         {to: '/about', label: 'About', position: 'left'},
         {to: '/contact', label: 'Contact', position: 'left'},

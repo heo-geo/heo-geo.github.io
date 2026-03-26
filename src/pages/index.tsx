@@ -119,6 +119,11 @@ export default function Home(): ReactNode {
               <div className="nav-card-desc">Interactive 3D models &amp; AR demos</div>
             </Link>
           </div>
+           <Link to="/apps/shopify-dev-helper" className="nav-card nav-card--centered">
+            <div className="nav-card-icon"><img src="/img/shopify-dev-helper-icon.png" alt="Shopify Dev Helper" style={{width: '40px', height: '40px'}} /></div>
+            <div className="nav-card-title">Shopify Dev Helper</div>
+            <div className="nav-card-desc">Chrome extension for Shopify theme developers</div>
+          </Link>
         </div>
 
       </main>

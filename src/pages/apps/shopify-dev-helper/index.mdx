@@ -1,52 +1,44 @@
 # Shopify Dev Helper — Chrome Extension
 
-**A developer tool for Shopify theme development.**
-Inspect and call the Shopify AJAX API, manage theme previews, and explore page context — all from a convenient side panel without leaving your browser.
+A Chrome side panel extension for Shopify theme developers. Think Postman, but built specifically for the Shopify AJAX API — living right next to your browser tab.
+
+No console. No custom scripts. No copy-pasting URLs. Just open the panel, navigate to any Shopify store, and start making requests.
+
+[Install on Chrome Web Store](https://chromewebstore.google.com/detail/shopify-dev-helper/obanbkfddfjcgnpdgdnnefdkbcpgloho)
 
 ---
 
-## What It Does
+## AJAX API
 
-Shopify Dev Helper opens as a Chrome side panel on any Shopify storefront tab. It gives developers direct access to the Shopify AJAX API and theme utilities without writing a single line of code or opening a terminal.
+Make live requests to the Shopify AJAX endpoints on any store you have open:
 
----
+- **Get Cart** — fetch the full cart object as JSON
+- **Add to Cart** — add any variant by ID with quantity, properties, and selling plan
+- **Update Cart** — change quantities, set a cart note, or update cart attributes
+- **Change Item** — modify a specific line item by variant ID or line number
+- **Clear Cart** — remove all items, clear attributes, or wipe the cart note individually
+- **Discount Codes** — apply or remove discount codes via the cart update endpoint
+- **Get Product** — fetch complete product data by handle, with one-click detection from the current page
+- **Product Recommendations** — retrieve related or complementary recommendations for any product
+- **Predictive Search** — query the search suggest endpoint with configurable resource types, fields, and result limits
 
-## Features
-
-### AJAX API
-
-Interact with all Shopify AJAX endpoints directly from the panel:
-
-- **Cart** — Get the current cart, add items, update quantities, change line item properties, apply or remove discount codes, and clear the cart or its attributes
-- **Product** — Fetch full product data by handle, with auto-detection from the current page
-- **Product Recommendations** — Retrieve related or complementary product recommendations for any product ID
-- **Predictive Search** — Query the storefront search suggest endpoint with configurable resource types, fields, and result limits
-
-All responses are displayed in a collapsible, searchable JSON viewer.
-
-### Theme Utilities
-
-- **Preview Banner** — Toggle the Shopify theme preview bar by appending `pb=1` or `pb=0` to the current page URL
-- **Copy Preview URL** — Instantly copy the current page URL with `?preview_theme_id=` populated from `window.Shopify.theme.id`
-- **Page Context Inspector** — Read `ShopifyAnalytics.meta` and Shopify globals from the active tab to inspect page type, product, theme, currency, and locale data
+All responses are shown in a collapsible, searchable JSON viewer so you can navigate large objects quickly.
 
 ---
 
-## Why Use It
+## Theme Utilities
 
-- **No CORS issues** — Requests are executed inside the active tab, so they work exactly as they would in a real storefront
-- **No setup** — Open the panel, navigate to a Shopify store, and start making requests
-- **Persistent form state** — Field values and last responses are saved for the duration of your browser session so you can switch tabs without losing your work
-- **Built for developers** — Clean, minimal UI designed for speed and clarity during theme development and debugging
+- **Preview Banner** — show or hide the Shopify theme preview bar without touching the URL manually
+- **Copy Preview URL** — copy the current page URL with `?preview_theme_id=` filled in automatically from `window.Shopify.theme.id`
+- **Page Context Inspector** — read `ShopifyAnalytics.meta` and Shopify globals to see page type, product, theme, currency, and locale data at a glance
 
 ---
 
-## How It Works
+## Why developers use it
 
-1. Click the extension icon to open the side panel
-2. Navigate to any Shopify online store tab
-3. Use the AJAX API or Theme tabs to interact with the store
-4. Inspect the JSON response directly in the panel
+Requests run inside the active tab, so they behave exactly like real storefront requests — no CORS errors, no authentication workarounds. Form values and responses are saved for the duration of your session, so you can switch tabs and come back without losing your work.
+
+It works on any Shopify online store, including development, staging, and password-protected preview themes.
 
 ---
 
