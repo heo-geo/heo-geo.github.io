@@ -26,11 +26,18 @@ All responses are shown in a collapsible, searchable JSON viewer so you can navi
 
 ---
 
-## Theme Utilities
+## Theme & Admin
 
+Theme utilities and admin navigation in one place:
+
+- **Open Customizer** — jump straight to the Theme Editor for the active theme
+- **Code Editor** — open the theme code editor for the active theme
+- **Open Page in Customizer** — open the Theme Editor with the current storefront page already loaded as the preview, so you edit exactly what you're looking at
+- **Open in Admin** — detects the current page and opens the matching admin record in one click. Handles products, collections, pages, articles, and blogs automatically. On the homepage, it redirects to the Customizer
 - **Preview Banner** — show or hide the Shopify theme preview bar without touching the URL manually
 - **Copy Preview URL** — copy the current page URL with `?preview_theme_id=` filled in automatically from `window.Shopify.theme.id`
 - **Page Context Inspector** — read `ShopifyAnalytics.meta` and Shopify globals to see page type, product, theme, currency, and locale data at a glance
+- **Quick Navigation** — one-click links to Dashboard, Products, Collections, Orders, Customers, Themes, Pages, Blog Posts, Files, and Metafields & Metaobjects
 
 ---
 
@@ -49,7 +56,7 @@ The extension requests only the permissions it needs:
 - **Active tab and scripting** — to inject fetch requests into the current Shopify tab (required to bypass CORS)
 - **Side panel** — to display the extension UI
 - **Storage** — to save form state locally within your browser session
-- **Tabs** — to detect store changes and open documentation links
+- **Tabs** — to detect store changes and open admin or documentation links
 
 No data is ever collected, transmitted, or stored beyond your local browser session.
 
