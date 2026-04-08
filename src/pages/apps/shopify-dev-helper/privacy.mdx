@@ -1,10 +1,10 @@
 # Privacy Policy — Shopify Dev Helper
 
-_Last updated: March 23, 2026_
+_Last updated: April 6, 2026_
 
 ## Overview
 
-Shopify Dev Helper is a Chrome extension designed for Shopify theme developers. It provides a side panel to inspect and interact with the Shopify AJAX API and theme utilities on the active browser tab.
+Shopify Dev Helper is a Chrome extension designed for Shopify theme developers. It provides a side panel to inspect and interact with the Shopify AJAX API, the Storefront GraphQL API, and theme utilities on the active browser tab.
 
 This policy explains what data the extension accesses, how it is used, and what is never collected or transmitted.
 
@@ -29,7 +29,7 @@ Shopify Dev Helper **does not**:
 | `activeTab` | Read the URL of the current tab to detect whether it is a Shopify store |
 | `scripting` | Inject fetch requests into the active tab to bypass CORS restrictions when calling Shopify AJAX endpoints |
 | `sidePanel` | Display the extension UI as a Chrome side panel |
-| `storage` | Save form state (field values, last response) in session storage so it persists while the browser is open |
+| `storage` | Save form state in session storage and persist settings (Storefront Access Token, API version, auto-close preference) in local storage |
 | `tabs` | Listen for tab changes to re-detect the active store and open documentation links in a new tab |
 | `*://*.myshopify.com/*` and `*://*/*` | Required to inject scripts into Shopify storefront pages |
 
@@ -41,11 +41,28 @@ The extension uses `chrome.storage.session` to temporarily store:
 
 - Form field values you have entered (e.g. variant IDs, query strings)
 - The last API response received
+- The active store domain and tab ID (session cache — used to keep the panel functional when you navigate away from a Shopify tab)
 
 This data:
 - Is stored **locally on your device only**
 - Is **never sent anywhere**
-- Is **automatically cleared** when you close the browser or reload the extension
+- Is **automatically cleared** when you close the browser or end the browser session
+
+---
+
+## Local Storage
+
+The extension uses `chrome.storage.local` to persist:
+
+- Your **Storefront Access Token** (a public API token you provide)
+- Your **Storefront API version** preference (e.g. `2026-04`)
+- Your **auto-close** setting
+
+This data:
+- Is stored **locally on your device only**
+- Is **never sent anywhere**
+- Persists across browser restarts and extension updates
+- Can be cleared at any time from Chrome's extension storage settings
 
 ---
 
@@ -55,9 +72,15 @@ To call Shopify AJAX endpoints, the extension injects a small fetch script into 
 
 ---
 
+## Storefront API Requests
+
+Storefront API (GraphQL) requests are made **directly from the extension's service worker** — no tab injection is required. These requests are sent to `https://<store>/api/<version>/graphql.json` using the public access token you configure. No request data is logged or stored beyond the response shown in the extension panel.
+
+---
+
 ## Third-Party Services
 
-Shopify Dev Helper does not integrate with any third-party services, APIs, or SDKs beyond the Shopify AJAX API endpoints that you explicitly call through the extension UI.
+Shopify Dev Helper does not integrate with any third-party services, APIs, or SDKs beyond the Shopify AJAX and Storefront API endpoints that you explicitly call through the extension UI.
 
 ---
 

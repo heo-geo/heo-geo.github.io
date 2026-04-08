@@ -1,0 +1,185 @@
+// ── Layout ───────────────────────────────────────────────────────────────────
+
+
+div:has(.shopify-dev-helper) {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.docs {
+  --bg: #0f0f0f;
+  --surface: #1a1a1a;
+  --surface2: #222;
+  --border: #2a2a2a;
+  --text: #e8e8e8;
+  --text-muted: #959595;
+  --accent: #96bf48;
+  --accent-dim: rgba(150, 191, 72, 0.1);
+
+  *, *::before, *::after { box-sizing: border-box;
+  font-size: 16px;
+  }
+
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  border-radius: 10px;
+  overflow: hidden;
+
+  button { cursor: pointer; font-family: inherit; }
+
+  code {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.9em;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 1px 5px;
+    color: var(--accent);
+  }
+
+  &__back-inline {
+    display: inline-block;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0;
+
+    &:hover { color: var(--accent); }
+  }
+
+  &__main {
+    flex: 1;
+    padding: 32px 16px;
+    max-width: 1512px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+// ── Home ─────────────────────────────────────────────────────────────────────
+
+.docs-home {
+  &__intro { margin-bottom: 32px; }
+
+  &__title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    color: var(--text-muted);
+    max-width: 560px;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+  }
+}
+
+// ── Card ─────────────────────────────────────────────────────────────────────
+
+.docs-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+  transition: border-color 0.15s, background 0.15s;
+
+  &:hover {
+    border-color: var(--accent);
+    background: var(--surface2);
+  }
+
+  &__icon {
+    font-size: 28px;
+    line-height: 1;
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  &__desc {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    flex: 1;
+    margin-bottom: 0;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 4px;
+  }
+
+  &__tag {
+    font-size: 14px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    background: var(--accent-dim);
+    color: var(--accent);
+    border: 1px solid transparent;
+  }
+}
+
+// ── Page ─────────────────────────────────────────────────────────────────────
+
+.docs-page {
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  &__lead {
+    font-size: 16px;
+    color: var(--text-muted);
+    max-width: 640px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    border-left: 3px solid var(--accent);
+    padding-left: 14px;
+  }
+}
+
+.docs-section {
+  margin-bottom: 28px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--border);
+
+  &:last-child { border-bottom: none; }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  &__body {
+    font-size: 16px;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+}
