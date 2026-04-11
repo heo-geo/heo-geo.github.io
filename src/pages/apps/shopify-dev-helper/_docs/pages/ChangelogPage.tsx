@@ -4,13 +4,16 @@ interface ChangelogEntry {
   version: string
   date: string
   items: string[]
+  pending?: boolean
 }
 
 const ENTRIES: ChangelogEntry[] = [
   {
     version: 'v1.3.1',
     date: 'April 10, 2026',
+    pending: true,
     items: [
+      'Fixed "Detect from page" buttons (Product, Recommendations, Storefront API) not detecting anything when in cached mode',
       'Fixed Theme & Admin buttons failing with errors when the extension was in cached mode',
     ],
   },
@@ -67,6 +70,7 @@ export function ChangelogPage({ nav: _ }: { nav: NavContext }) {
             <div className="docs-changelog__header">
               <span className="docs-changelog__version">{entry.version}</span>
               <span className="docs-changelog__date">{entry.date}</span>
+              {entry.pending && <span className="docs-changelog__pending">under review · not published</span>}
             </div>
             <ul className="docs-changelog__list">
               {entry.items.map((item, i) => (
