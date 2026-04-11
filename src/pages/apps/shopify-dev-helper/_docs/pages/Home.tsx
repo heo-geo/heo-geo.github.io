@@ -44,6 +44,12 @@ const CARDS: Card[] = [
     desc: 'How the extension keeps working when you navigate away from a Shopify store — using a tab-scoped session cache.'
     // tags: ['Session', 'Caching', 'Multi-tab'],
   },
+  {
+    id: 'changelog',
+    icon: '📋',
+    title: 'Changelog',
+    desc: 'Release history — what was added, fixed, or changed in each version.',
+  },
 ]
 
 export function Home({ nav }: { nav: NavContext }) {

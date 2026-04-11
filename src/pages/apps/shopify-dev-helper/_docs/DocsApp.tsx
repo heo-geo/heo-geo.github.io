@@ -5,8 +5,9 @@ import { StorefrontApiPage } from './pages/StorefrontApiPage'
 import { ThemeAdminPage } from './pages/ThemeAdminPage'
 import { ConfigPage } from './pages/ConfigPage'
 import { SessionCachePage } from './pages/SessionCachePage'
+import { ChangelogPage } from './pages/ChangelogPage'
 
-export type DocPageId = 'home' | 'ajax' | 'storefront' | 'theme' | 'config' | 'session-cache'
+export type DocPageId = 'home' | 'ajax' | 'storefront' | 'theme' | 'config' | 'session-cache' | 'changelog'
 
 export interface NavContext {
   navigate: (page: DocPageId) => void
@@ -35,6 +36,7 @@ export function DocsApp() {
         {page === 'theme'      && <ThemeAdminPage nav={ctx} />}
         {page === 'config'        && <ConfigPage nav={ctx} />}
         {page === 'session-cache' && <SessionCachePage nav={ctx} />}
+        {page === 'changelog'     && <ChangelogPage nav={ctx} />}
       </main>
     </div>
   )

@@ -183,3 +183,50 @@ div:has(.shopify-dev-helper) {
     line-height: 1.6;
   }
 }
+
+// ── Changelog ─────────────────────────────────────────────────────────────────
+
+.docs-changelog {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+
+  &__entry {
+    padding: 24px 0;
+    border-bottom: 1px solid var(--border);
+
+    &:last-child { border-bottom: none; }
+  }
+
+  &__header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  &__version {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  &__date {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  &__list {
+    margin: 0;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    li {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+  }
+}
