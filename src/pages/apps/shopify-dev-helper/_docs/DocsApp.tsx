@@ -4,7 +4,7 @@ import { AjaxApiPage } from './pages/AjaxApiPage'
 import { StorefrontApiPage } from './pages/StorefrontApiPage'
 import { ThemeAdminPage } from './pages/ThemeAdminPage'
 import { ConfigPage } from './pages/ConfigPage'
-import { SessionCachePage } from './pages/SessionCachePage'
+import { CacheHistoryPage } from './pages/CacheHistoryPage'
 import { ChangelogPage } from './pages/ChangelogPage'
 
 export type DocPageId = 'home' | 'ajax' | 'storefront' | 'theme' | 'config' | 'session-cache' | 'changelog'
@@ -35,7 +35,7 @@ export function DocsApp() {
         {page === 'storefront' && <StorefrontApiPage nav={ctx} />}
         {page === 'theme'      && <ThemeAdminPage nav={ctx} />}
         {page === 'config'        && <ConfigPage nav={ctx} />}
-        {page === 'session-cache' && <SessionCachePage nav={ctx} />}
+        {page === 'session-cache' && <CacheHistoryPage nav={ctx} />}
         {page === 'changelog'     && <ChangelogPage nav={ctx} />}
       </main>
     </div>

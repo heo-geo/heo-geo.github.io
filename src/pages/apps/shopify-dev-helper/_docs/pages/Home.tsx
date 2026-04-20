@@ -40,9 +40,8 @@ const CARDS: Card[] = [
   {
     id: 'session-cache',
     icon: '🔄',
-    title: 'Session Cache',
-    desc: 'How the extension keeps working when you navigate away from a Shopify store — using a tab-scoped session cache.'
-    // tags: ['Session', 'Caching', 'Multi-tab'],
+    title: 'Cache & History',
+    desc: 'Session caching keeps the panel functional when you navigate away from a store. Also covers request history (last 15 API calls) and themes viewed history.',
   },
   {
     id: 'changelog',

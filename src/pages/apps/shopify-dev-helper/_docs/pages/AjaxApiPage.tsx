@@ -8,6 +8,8 @@ export function AjaxApiPage({ nav: _ }: { nav: NavContext }) {
         Shopify's AJAX API lets you interact with cart, product, recommendations, and search — all without page reloads.
         Requests are injected into the active Shopify tab via <code>chrome.scripting.executeScript</code> to bypass CORS.
         When the session cache is active, requests are routed to the cached Shopify tab instead.
+        The response toolbar shows a <strong>Copy</strong> button when a response is present; clicking it copies
+        the full JSON to the clipboard and briefly shows a "Copied!" confirmation.
       </p>
 
       <section className="docs-section">
@@ -22,8 +24,11 @@ export function AjaxApiPage({ nav: _ }: { nav: NavContext }) {
             <code>total_price</code>, <code>attributes</code>, <code>note</code>, <code>discount_codes</code> etc.
           </li>
           <li>
-            <strong>POST /cart/add.js</strong> — Adds one item. Body:{' '}
-            <code>{'{ items: [{ id, quantity, properties?, selling_plan? }] }'}</code>.
+            <strong>POST /cart/add.js</strong> — Adds one or more items in a single request.
+            Click <strong>+ Add item</strong> to add another row; <strong>×</strong> removes a row
+            (minimum one row is always present). Each row has its own Variant ID, Quantity,
+            Properties (key/value pairs), and Selling Plan ID.
+            Body: <code>{'{ items: [{ id, quantity, properties?, selling_plan? }] }'}</code>.
             The <code>id</code> field is a variant ID (integer).
           </li>
           <li>
@@ -54,6 +59,13 @@ export function AjaxApiPage({ nav: _ }: { nav: NavContext }) {
           <li>
             <strong>Discount Codes</strong> — POST <code>/cart/update.js</code> with <code>{'{ discount: "CODE" }'}</code>.
             Multiple codes are joined with a comma. Clear all codes by sending <code>{'{ discount: "" }'}</code>.
+          </li>
+          <li>
+            <strong>Detect from page</strong> — A <strong>Detect from page</strong> button inside each item row
+            auto-fills the Variant ID from the active Shopify tab. Resolution order:{' '}
+            <code>?variant=</code> URL param → <code>input[name="id"]</code> / <code>select[name="id"]</code>{' '}
+            → <code>ShopifyAnalytics.meta.selectedVariantId</code> → first variant in{' '}
+            <code>ShopifyAnalytics.meta.product.variants</code>.
           </li>
         </ul>
       </section>

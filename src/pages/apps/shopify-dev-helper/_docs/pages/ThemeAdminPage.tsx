@@ -119,6 +119,13 @@ export function ThemeAdminPage({ nav: _ }: { nav: NavContext }) {
       </section>
 
       <section className="docs-section">
+        <h2 className="docs-section__title">Themes Viewed History</h2>
+        <p className="docs-section__body">
+          Theme visit history is recorded automatically and documented in the <strong>Cache &amp; History</strong> section.
+        </p>
+      </section>
+
+      <section className="docs-section">
         <h2 className="docs-section__title">Quick Navigation</h2>
         <p className="docs-section__body">
           One-click buttons that open common Shopify Admin sections for the current store in a new tab.
