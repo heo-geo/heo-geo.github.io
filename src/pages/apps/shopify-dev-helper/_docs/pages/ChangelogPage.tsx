@@ -13,7 +13,6 @@ const ENTRIES: ChangelogEntry[] = [
   {
     version: 'v1.3.2',
     date: 'April 19, 2026',
-    pending: true,
     items: [
       {
         label: 'Added Request History:',
