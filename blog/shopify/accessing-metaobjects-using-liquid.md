@@ -16,6 +16,7 @@ I was recently working on a Shopify theme and needed to grab **Metaobjects** - f
 If you've got a metafield on a product (or any resource) that stores **Metaobject references**, you can loop through it like this:
 
 ```liquid
+{% raw %}
 {% for metaobject in product.metafields.custom.pdp_faq_items.value %}
   {% if metaobject.question_single and metaobject.answer_single %}
     <ul>
@@ -26,6 +27,7 @@ If you've got a metafield on a product (or any resource) that stores **Metaobjec
     </ul>
   {% endif %}
 {% endfor %}
+{% endraw %}
 ```
 
 - `.value` gives you the array of metaobjects.
@@ -38,6 +40,7 @@ If you're working with **site-wide or shared content** (e.g. modals, banners, co
 Here's an example of grabbing a **specific metaobject** by handle:
 
 ```liquid
+{% raw %}
 {% liquid
   assign upsell_popup = shop.metaobjects.pdp_upsell_pop_up_modal['handle-of-the-metaobject']
 
@@ -49,16 +52,19 @@ Here's an example of grabbing a **specific metaobject** by handle:
   assign modal_product_cta_text = upsell_popup.modal_product_cta_text
   assign modal_upsell_product = upsell_popup.modal_upsell_product.value
 %}
+{% endraw %}
 ```
 
 You can also loop through **all** metaobjects of a given type if needed:
 
 ```liquid
+{% raw %}
 <ul>
   {% for item in shop.metaobjects['shopify--color-pattern'].values %}
     <li>{{ item.label }}</li>
   {% endfor %}
 </ul>
+{% endraw %}
 ```
 
 - `shopify--color-pattern` is the metaobject type (replace with yours).

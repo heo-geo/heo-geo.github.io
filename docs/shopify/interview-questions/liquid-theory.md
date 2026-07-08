@@ -21,7 +21,7 @@
 
 1. What types of tags exist in the Liquid language?
     
-2. What is the difference between double curly braces (`{{ }}`) and curly braces with percentage delimiters (`{% %}`)? When should each be used?
+2. What is the difference between double curly braces (`{% raw %}{{ }}{% endraw %}`) and curly braces with percentage delimiters (`{% raw %}{% %}{% endraw %}`)? When should each be used?
     
 3. What types of conditional tags are there, and how can they be used?
     
